@@ -25,7 +25,7 @@ def main():
         productos.append(product)  # Add the product to the list of products
 
         seguir = input("Quieres agregar mas productos? (Ingresa 'S' para continuar, otra letra para terminar): ")
-        if seguir != "S" or seguir != "s": #Continue adding products or make the receipt
+        if seguir.upper() != "S": #Continue adding products or make the receipt
             break
 
     #Print the receipt
