@@ -25,11 +25,11 @@ def main():
         productos.append(product)  # Add the product to the list of products
 
         seguir = input("Quieres agregar mas productos? (Ingresa 'S' para continuar, otra letra para terminar): ")
-        if seguir != "S": #Continue adding products or make the receipt
+        if seguir != "S" or seguir != "s": #Continue adding products or make the receipt
             break
 
     #Print the receipt
-    print("\n*" * 50 )
+    print("\n","*" * 50 )
     print(f"\t\t{company_name.title()}")
     print(f"\t\t{company_city}")
     print(f"\t\t{company_address}")
