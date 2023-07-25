@@ -29,7 +29,7 @@ def main():
             break
 
     #Print the receipt
-    print("*" * 50 )
+    print("\n*" * 50 )
     print(f"\t\t{company_name.title()}")
     print(f"\t\t{company_city}")
     print(f"\t\t{company_address}")
@@ -46,5 +46,4 @@ def main():
     print(f"\t\t\t${total}")
     print("=" * 50 )
     print(f"\n\t{message}\n")
-
 main()
